@@ -43,6 +43,8 @@ W ten sposób np.
 - Wróżka, Grabarz, Empatka itd... może (ale nie musi) uzyskać fałszywą informację.
 - itd...
 
+Ten sam gracz/postać w różnych momentach może się różnie ujawniać.
+
 ## Informacje złych:
 
 Demon - konkretnie Chochlik (Imp) - wie kogo może bezpiecznie udawać.  
