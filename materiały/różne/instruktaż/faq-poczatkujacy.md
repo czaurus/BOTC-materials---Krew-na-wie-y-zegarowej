@@ -44,6 +44,7 @@ W ten sposób np.
 - itd...
 
 Ten sam gracz/postać w różnych momentach może się różnie ujawniać.
+Np. Pustelnik został zabity przez Łowcę Demonów (który zabić może tylko Chochlika). Później Pustelnik został sprawdzony przez Hodowcę Kruków, który zobaczył go jako "Truciciela".
 
 ## Informacje złych:
 
@@ -52,7 +53,7 @@ Na początku gry Demon dowiaduje się jakich trzech (3) dobrych postaci NIE MA w
 
 ## Informacje publiczne
 
-Ilość Mieczczan, Outsiderów i Sługusów jest zależna od ilości graczy zgodnie z poniższą tabelą.
+Ilość Mieszczan, Outsiderów i Sługusów jest zależna od ilości graczy zgodnie z poniższą tabelą.
 Ewentualne zmiany wynikać mogą z obecności Barona w grze.
 
 | ILość graczy | Mieszczanie | Outsiderzy | Sługusy | Demony |
