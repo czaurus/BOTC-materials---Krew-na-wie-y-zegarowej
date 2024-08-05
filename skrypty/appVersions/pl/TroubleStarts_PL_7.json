@@ -1,0 +1,320 @@
+[
+  {
+    "id": "_meta",
+    "name": "TroubleStarts",
+    "author": "Hawk"
+  },
+  {
+    "id": "pl_PL_chef",
+    "name": "Kucharz",
+    "team": "townsfolk",
+    "firstNight": 36,
+    "firstNightReminder": "Pokaż na palcach liczbę (0, 1, 2) odpowiadającą liczbie par sąsiadujących z sobą Złych. Jeden gracz może należeć do dwóch par.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Na początku gry dowiadujesz się, ile par Złych graczy siedzi obok siebie.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/chef.png"
+  },
+  {
+    "id": "pl_PL_investigator",
+    "name": "Śledczy",
+    "team": "townsfolk",
+    "firstNight": 35,
+    "firstNightReminder": "Pokaż żeton Sługusa będącego w grze. Wskaż dwóch graczy, jeden z nich jest tym Sługusem.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sługus",
+      "Zmyłka"
+    ],
+    "setup": false,
+    "ability": "Na początku gry dowiadujesz się, że jeden z dwóch graczy jest konkretnym Sługusem.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/investigator.png"
+  },
+  {
+    "id": "pl_PL_washerwoman",
+    "name": "Praczka",
+    "team": "townsfolk",
+    "firstNight": 33,
+    "firstNightReminder": "Pokaż żeton Mieszczanina będącego w grze. Wskaż dwóch graczy, jeden z nich jest tym Mieszczaninem.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Mieszczanin",
+      "Zmyłka"
+    ],
+    "setup": false,
+    "ability": "Na początku gry dowiadujesz się, że jeden z dwóch graczy jest konkretnym Mieszczaninem.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/washerwoman.png"
+  },
+  {
+    "id": "pl_PL_librarian",
+    "name": "Bibliotekarz",
+    "team": "townsfolk",
+    "firstNight": 34,
+    "firstNightReminder": "Pokaż żeton Ousidera będącego w grze. Wskaż dwóch graczy, jeden z nich jest tym Outsiderem.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Outsider",
+      "Zmyłka"
+    ],
+    "setup": false,
+    "ability": "Na początku gry dowiadujesz się, że jeden z dwóch graczy jest konkretnym outsiderem (lub że jest ich 0 w grze).",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/librarian.png"
+  },
+  {
+    "id": "pl_PL_empath",
+    "name": "Empata",
+    "team": "townsfolk",
+    "firstNight": 37,
+    "firstNightReminder": "Pokaż sygnał palcami (0, 1, 2) odpowiadający liczbie żyjących sąsiadów Empaty.",
+    "otherNight": 53,
+    "otherNightReminder": "Pokaż sygnał palcami (0, 1, 2) odpowiadający liczbie żyjących sąsiadów Empaty.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Każdej nocy dowiadujesz się ilu z Twoich żyjących sąsiadów jest Złych.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/empath.png"
+  },
+  {
+    "id": "pl_PL_fortunę_teller",
+    "name": "Wróżka",
+    "team": "townsfolk",
+    "firstNight": 38,
+    "firstNightReminder": "Wróżka wskazuje dwóch graczy. Daj sygnał (kiwnij głową na TAK, pokręć na NIE) jeśli którykolwiek z tych graczy jest Demonem.",
+    "otherNight": 54,
+    "otherNightReminder": "Wróżka wskazuje dwóch graczy. Daj sygnał (kiwnij głową na TAK, pokręć na NIE) jeśli którykolwiek z tych graczy jest Demonem.",
+    "reminders": [
+      "Przynęta"
+    ],
+    "setup": false,
+    "ability": "Każdej nocy wybierasz 2 graczy - dowiadujesz się czy któryś z nich jest Demonem. Jeden z Dobrych graczy pokazuje Ci się jako Zły.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/fortuneteller.png"
+  },
+  {
+    "id": "pl_PL_undertaker",
+    "name": "Grabarz",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 55,
+    "otherNightReminder": "Jeśli gracz został stracony w ciągu dnia podczas egzekucji: Pokaż temu graczowi token tej postaci.",
+    "reminders": [
+      "Stracony"
+    ],
+    "setup": false,
+    "ability": "Każdej nocy* dowiadujesz się którą postać stracono dziś podczas egzekucji.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/undertaker.png"
+  },
+  {
+    "id": "pl_PL_monk",
+    "name": "Mnich",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 12,
+    "otherNightReminder": "Poprzednio chroniony gracz przestaje być chroniony. Mnich wskazuje gracza (nie siebie). Zaznacz tego gracza jako 'CHRONIONY'.",
+    "reminders": [
+      "Chroniony"
+    ],
+    "setup": false,
+    "ability": "Każdej nocy* wybierz gracza (nie siebie), który tej nocy będzie chroniony przed Demonem.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/monk.png"
+  },
+  {
+    "id": "pl_PL_slayer",
+    "name": "Pogromca",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Brak zdolności"
+    ],
+    "setup": false,
+    "ability": "Raz w trakcie gry, w ciągu dnia, publicznie wybierasz jednego gracza - jeśli jest Demonem, ginie.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/slayer.png"
+  },
+  {
+    "id": "pl_PL_soldier",
+    "name": "Żołnierz",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Nie możesz zostać zabity przez Demona.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/soldier.png"
+  },
+  {
+    "id": "pl_PL_ravenkeeper",
+    "name": "Hodowca Kruków",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 52,
+    "otherNightReminder": "Jeśli Hodowca Kruków zginie w nocy to wskazuje gracza. Pokaż mu token wskazanego gracza.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jeśli zginiesz nocą, budzisz się i wybierasz gracza - dowiadujesz się, jaką jest postacią.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/ravenkeeper.png"
+  },
+  {
+    "id": "pl_PL_virgin",
+    "name": "Dziewica",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Brak zdolności"
+    ],
+    "setup": false,
+    "ability": "Gdy zostaniesz nominowany po raz pierwszy w grze, a nominuje Cię Mieszczanin, zostaje on natychmiast stracony.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/virgin.png"
+  },
+  {
+    "id": "pl_PL_mayor",
+    "name": "Burmistrz",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jeśli przy trzech żywych graczach nie nastąpi egzekucja, Twoja drużyna wygrywa. Jeśli masz zginąć nocą, inny gracz może zginąć zamiast Ciebie.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/mayor.png"
+  },
+  {
+    "id": "pl_PL_butler",
+    "name": "Lokaj",
+    "team": "outsider",
+    "firstNight": 39,
+    "firstNightReminder": "Lokaj wskazuje gracza. Zaznacz tego gracza jako 'MASTER'",
+    "otherNight": 67,
+    "otherNightReminder": "Lokaj wskazuje gracza. Zaznacz tego gracza jako 'MASTER'",
+    "reminders": [
+      "Master"
+    ],
+    "setup": false,
+    "ability": "Każdej nocy wybierz gracza (nie siebie). Jutro możesz głosować tylko, jeśli ten gracz zagłosuje.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/butler.png"
+  },
+  {
+    "id": "pl_PL_saint",
+    "name": "Święty",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Jeśli zginiesz przez egzekucję, Twoja drużyna przegrywa.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/saint.png"
+  },
+  {
+    "id": "pl_PL_recluse",
+    "name": "Odludek",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Możesz być pokazany jako Zły czyli jako Sługus lub Demon, nawet po śmierci.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/recluse.png"
+  },
+  {
+    "id": "pl_PL_drunk",
+    "name": "Pijak",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "Nie wiesz, że jesteś Pijakiem. Myślisz, że jesteś Mieszczaninem, ale Twoja umiejętność nie działa prawidłowo.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/drunk.png"
+  },
+  {
+    "id": "pl_PL_poisoner",
+    "name": "Truciciel",
+    "team": "minion",
+    "firstNight": 17,
+    "firstNightReminder": "Truciciel wskazuje gracza. Ten gracz zostaje otruty.",
+    "otherNight": 7,
+    "otherNightReminder": "Poprzednio otruty gracz nie jest już otruty. Truciciel wskazuje gracza. Ten gracz zostaje otruty.",
+    "reminders": [
+      "Zatruty"
+    ],
+    "setup": false,
+    "ability": "Każdej nocy wybierz gracza, którego umiejętność nie zadziała tej nocy ani jutro za dnia.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/poisoner.png"
+  },
+  {
+    "id": "pl_PL_spy",
+    "name": "Szpieg",
+    "team": "minion",
+    "firstNight": 49,
+    "firstNightReminder": "Pokaż Szpiegowi Grymuar na tak długo, jak tego potrzebuje.",
+    "otherNight": 68,
+    "otherNightReminder": "Pokaż Szpiegowi Grymuar na tak długo, jak tego potrzebuje.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Każdej nocy zaglądasz do Grymuaru. Możesz być pokazany jako Dobry czyli jako Mieszczanin lub Outsider, nawet po śmierci.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/spy.png"
+  },
+  {
+    "id": "pl_PL_baron",
+    "name": "Baron",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "W grze jest dwóch dodatkowych Outsiderów. [+2 Outsiderów]",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/baron.png"
+  },
+  {
+    "id": "pl_PL_scarlet_woman",
+    "name": "Kochanica Diabła",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 19,
+    "otherNightReminder": "Jeśli Kochanica Diabła została dziś Demonem. Pokaż jej kartę 'TY JESTEŚ' a następnie token Demona.",
+    "reminders": [
+      "Demon"
+    ],
+    "setup": false,
+    "ability": "Jeśli przy życiu pozostaje 5 lub więcej graczy a Demon zginie, zostajesz Demonem (Podróżnicy się nie liczą).",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/scarletwoman.png"
+  },
+  {
+    "id": "pl_PL_imp",
+    "name": "Chochlik",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 24,
+    "otherNightReminder": "Chochlik wskazuje gracza. Ten gracz umiera. Jeśli Chochlik wybierze siebie: Zamień postać jednego żyjącego Sługusa na zapasowy żeton Chochlika. Pokaż graczowi kartę 'TY JESTEŚ' a następnie token Demona.",
+    "reminders": [
+      "Martwy"
+    ],
+    "setup": false,
+    "ability": "Każdej nocy wybierz gracza który umiera. Jeśli zabijesz w ten sposób siebie, sługus zostaje Demonem.",
+    "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/imp.png"
+  }
+]
