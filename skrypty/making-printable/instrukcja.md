@@ -1,6 +1,6 @@
 ## Cel & problem.
 
-Celem jest utworzenie tzw. Skryptu (aka. Scenariusza, tj. Spisu postaci) w języku polskim.  
+Celem jest utworzenie tzw. Skryptu (aka. Scenariusza, tj. Spisu postaci) w wersji **do druku** i **w języku polskim**.  
 Czyli tego papierka, który gracze mają przy sobie w trakcie gry, by móc podglądać jakie postacie są (lub mogą być) w grze.
 
 Istnieje oficjalne narzędzie, które umożliwia tworzenie własnych skryptów - działa ono jednak tylko w języku angielskim.

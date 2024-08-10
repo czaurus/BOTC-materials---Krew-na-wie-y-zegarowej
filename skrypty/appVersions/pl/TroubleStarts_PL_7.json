@@ -110,7 +110,7 @@
   },
   {
     "id": "pl_PL_monk",
-    "name": "Mnich",
+    "name": "HMnich",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -125,7 +125,7 @@
   },
   {
     "id": "pl_PL_slayer",
-    "name": "Pogromca",
+    "name": "hPogromca",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
