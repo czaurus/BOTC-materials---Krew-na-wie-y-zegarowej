@@ -1,0 +1,171 @@
+[
+    {
+        "id": "_meta",
+        "name": "Over the River",
+        "author": "Andrew Nathenson"
+    },
+    {
+        "id": "pl_PL_grandmother",
+        "name": "Babcia",
+        "team": "townsfolk",
+        "firstNight": 40,
+        "firstNightReminder": "Show the marked character token. Point to the marked player.",
+        "otherNight": 51,
+        "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
+        "reminders": [
+            "Grandchild"
+        ],
+        "setup": false,
+        "ability": "Zaczynasz gre, znajac tozsamosc i postac jednego dobrego gracza. Jesli Demon go zabije, umierasz wraz z nim.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/grandmother.png"
+    },
+    {
+        "id": "pl_PL_clockmaker",
+        "name": "Zegarmistrz",
+        "team": "townsfolk",
+        "firstNight": 41,
+        "firstNightReminder": "Pokaż na palcach liczbę (0, 1, 2,) siedzeń między demonem a jego najbliższym sługusem.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Na początku gry dowiadujesz się, ile kroków dzieli demona od jego najbliższego sługusa.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/clockmaker.png"
+    },
+    {
+        "id": "pl_PL_innkeeper",
+        "name": "Karczmarz",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 9,
+        "otherNightReminder": "The previously protected and drunk players lose those tokens. The Innkeeper points to two players. Those players are protected. One is drunk.",
+        "reminders": [
+            "Drunk",
+            "Protected"
+        ],
+        "setup": false,
+        "ability": "Kazdej nocy* wybierz 2 graczy: zaden z nich nie moze umrzec tej nocy, ale jeden z nich bedzie pijany do kolejnego zmierzchu",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/innkeeper.png"
+    },
+    {
+        "id": "pl_PL_snakecharmer",
+        "name": "Zaklinacz węży",
+        "team": "townsfolk",
+        "firstNight": 20,
+        "firstNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej roli i drużynie. Nowy Zaklinacz węży jest otruty.",
+        "otherNight": 11,
+        "otherNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej robi i drużynie. Nowy Zaklinacz węży jest otruty.",
+        "reminders": [
+            "otruty"
+        ],
+        "setup": false,
+        "ability": "Każdej nocy wybierz żywego gracza - jeśli wybrałeś demona, to zamieniacie się z nim postaciami i drużynami a i zostaje on otruty.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/snakecharmer.png"
+    },
+    {
+        "id": "pl_PL_professor",
+        "name": "Profesor",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 43,
+        "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head 'no', or points to a player. If that player is a Townsfolk, they are now alive.",
+        "reminders": [
+            "Alive",
+            "No ability"
+        ],
+        "setup": false,
+        "ability": "Raz w trakcie gry, noca*, wybierz martwego gracza. Jesli jest to Mieszczanin, zostaje on wskrzeszony.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/professor.png"
+    },
+    {
+        "id": "pl_PL_slayer",
+        "name": "Pogromca",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "No ability"
+        ],
+        "setup": false,
+        "ability": "Raz w trakcie gry, w ciagu dnia, publicznie wybierasz jednego gracza - jesli jest Demonem, ginie.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/slayer.png"
+    },
+    {
+        "id": "pl_PL_lunatic",
+        "name": "Szaleniec",
+        "team": "outsider",
+        "firstNight": 8,
+        "firstNightReminder": "If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' tokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.",
+        "otherNight": 20,
+        "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. If the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, then point to each marked player. Remove any Lunatic 'ATTACK' tokens.",
+        "reminders": [
+            "Attack 1",
+            "Attack 2",
+            "Attack 3"
+        ],
+        "setup": false,
+        "ability": "Myslisz, ze jestes Demonem, ale nie jestes. Demon wie, kim jestes oraz kogo wybierasz noca.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/lunatic.png"
+    },
+    {
+        "id": "pl_PL_recluse",
+        "name": "Odludek",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Mozesz pokazac sie jako zly i jako slugus lub demon, nawet po smierci.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/recluse.png"
+    },
+    {
+        "id": "pl_PL_godfather",
+        "name": "Ojciec chrzestny",
+        "team": "minion",
+        "firstNight": 21,
+        "firstNightReminder": "Show each of the Outsider tokens in play.",
+        "otherNight": 37,
+        "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
+        "reminders": [
+            "Dead",
+            "Died today"
+        ],
+        "setup": true,
+        "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy sa w grze. Jesli jeden z nich dzis umarl, wybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/godfather.png"
+    },
+    {
+        "id": "pl_PL_spy",
+        "name": "Szpieg",
+        "team": "minion",
+        "firstNight": 49,
+        "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+        "otherNight": 68,
+        "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+        "reminders": [],
+        "setup": false,
+        "ability": "Kazdej nocy zagladasz do grymuaru. Mozesz pokazac sie jako dobry i jako mieszczanin lub outsider, nawet po smierci.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/spy.png"
+    },
+    {
+        "id": "pl_PL_imp",
+        "name": "Chochlik",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 24,
+        "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'YOU ARE' card, then the Imp token.",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": false,
+        "ability": "Kazdej nocy wybierz gracza, ktory umiera. Jesli zabijesz w ten sposob siebie, slugus zostaje demonem.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/imp.png"
+    }
+]
