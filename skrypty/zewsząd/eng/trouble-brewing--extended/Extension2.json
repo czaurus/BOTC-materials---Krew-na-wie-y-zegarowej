@@ -1,0 +1,35 @@
+[
+    {
+        "id": "_meta",
+        "author": "c.b.",
+        "name": "Extension"
+    },
+    {
+        "id": "idx_chambermaid",
+        "team": "Townsfolk",
+        "name": "Pokojówka",
+        "ability": "Każdej nocy wybierz dwóch graczy (nie siebie). Dowiadujesz się ilu z nich budziło się dzisiejsze nocy w związku ze swoją umiejętnością.",
+        "image": "https://www.pocketgrimoire.co.uk/build/img/icons/townsfolk/chambermaid.webp"
+    },
+    {
+        "id": "idx_savant",
+        "team": "Townsfolk",
+        "name": "Sawant",
+        "ability": "Upośledzony geniusz. Każdego dnia, możesz odwiedzić Bajarza, żeby dowiedzieć się prywatnie dwóch rzeczy: Jedna z nich jest prawdziwa, druga jest kłamstwem.",
+        "image": "https://www.pocketgrimoire.co.uk/build/img/icons/townsfolk/savant.webp"
+    },
+    {
+        "id": "idx_artist",
+        "team": "Townsfolk",
+        "name": "Artysta",
+        "ability": "Raz w trakcie gry, za dnia, na osobności zadaj Bajarzowi pytanie zamknięte (tak/nie).",
+        "image": "https://www.pocketgrimoire.co.uk/build/img/icons/townsfolk/artist.webp"
+    },
+    "lunatic",
+    "politician",
+    "marionette",
+    "widow",
+    "psychopath",
+    "fanggu",
+    "pukka"
+]

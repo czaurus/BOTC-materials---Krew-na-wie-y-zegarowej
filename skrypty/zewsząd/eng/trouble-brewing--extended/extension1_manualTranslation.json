@@ -1,0 +1,24 @@
+[
+    {
+        "id": "_meta",
+        "author": "c.b.",
+        "name": "Extension"
+    },
+    {
+        "id": "pl_lunatic_x",
+        "name": "Szaleniec",
+        "team": "Outsider",
+        "firstNight": 700,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Myślisz, że jesteś Demonem, ale nim nie jesteś. Prawdziwy Demon wie kim jesteś i kogo wybierasz w nocy.",
+        "image": "https://www.pocketgrimoire.co.uk/build/img/icons/outsider/lunatic.webp"
+    },
+    "politician",
+    "marionette",
+    "fanggu",
+    "pukka"
+]

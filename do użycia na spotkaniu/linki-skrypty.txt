@@ -1,0 +1,35 @@
+Tworzenie:
+https://script.bloodontheclocktower.com/
+
+Tłumaczenie:
+https://botct-python-web-script-creator.onrender.com/scripts
+https://botct-python-web-script-creator.onrender.com/
+
+
+
+Trouble Brewing:
+https://www.pocketgrimoire.co.uk/en_GB/sheet?game=615836249b0d28fc568343852530f2c00b2807a108fedd1aa0eb02575b855ccd&traveller=1&fabled=1
+
+Sects and Violets:
+https://www.pocketgrimoire.co.uk/en_GB/sheet?game=8a81f931c78463a24d0a65ab9b1ff69e4bf83f2017223950888b30cbeed8ab95&traveller=1&fabled=1&name=Sects+and+Violets
+
+Bad moon rising:
+https://www.pocketgrimoire.co.uk/en_GB/sheet?game=a868c955f78d8eef641bc3720047210a70f916cc2ba31da123ace88879259da2&traveller=1&fabled=1
+
+
+Teensavilles:
+-
+TEENSYVILLE_Nadinesyville-Twinning(update_unicode)
+https://www.pocketgrimoire.co.uk/en_GB/sheet?game=7bb85d234d85cc7d0db65c25a6019d6f4daf4be7366c9a24cea69216abbe9d30&traveller=1&fabled=1
+
+-
+TEENSYVILLE_Laissez-un-Faire(update_unicode)
+https://www.pocketgrimoire.co.uk/en_GB/sheet?game=1eb3a650c4e7c2f070cffab286e31a3257e14247149387aab88902fb4b555377&traveller=1&fabled=1
+
+-
+TEENSYVILLE_No-Greater-Joy_(update_unicode).txt
+https://www.pocketgrimoire.co.uk/en_GB/sheet?game=ee73113b886f63cf2584e0940b000b956061cdb79dc5972597b7ae5ae2e7e930&traveller=1&fabled=1
+
+-
+TEENSYVILLE_Over_the_River(update_PL)
+https://www.pocketgrimoire.co.uk/en_GB/sheet?game=6d88bd478009bf496134a0f19e8c30193e716ab3ff71c6881c9ed58ebb192724&traveller=1&fabled=1&name=Over+the+River
