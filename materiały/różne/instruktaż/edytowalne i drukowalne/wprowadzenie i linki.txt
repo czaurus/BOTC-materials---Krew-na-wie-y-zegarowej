@@ -1,0 +1,28 @@
+Poniżej podsyłam kilka materiałów do gry.
+
+Gra nazywa się "Krew na Wieży Zegarowej" (ang. Blood on the Clocktower).
+Jak ktoś grał w "Mafię" i/lub "Wilkołaki", to teoretycznie wystarczy, że to przeczyta i już może grać. Przeczytać można w ostatniej chwili.
+W czasie gry w każdym momencie dostępny jest Mistrz Gry, który wyjaśnia wszelkie niewiadome i niuanse, bo takowe pojawią się na pewno (nawet u zaawansowanych graczy).
+
+Materiały te nie zostały przygotowane z myślą o tym, że będą wysyłane zdalnie, ale są materiałami pomocniczymi do druku, używanymi na żywo. (Stąd też same linki są dosyć... długie.) 
+
+Zalecana kolejność czytania:
+1. Rzucenie okiem na spis postaci (tzw. Skrypt lub Scenariusz). (pierwszy link)  
+2. Przeczytanie "zasady-po-polskiemu.pdf" (drugi link, dosyć gęsty tekst).
+3. Przeczytanie "faq-do-druku.pdf" (trzeci link)
+4. Powrót do spisu postaci. Na tym etapie powinniście już być świadomi, że ani wszystkich zasad, ani spisu postaci (i ich umiejętności) nie musicie znać na pamięć.
+
+
+Linki:
+
+1. Spis postaci (aka. Scenariusz / Skrypt):
+- wersja pdf:
+https://github.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/blob/master/skrypty/me-made-or-translated/printable/Trouble%20Brewing%20rewritten.pdf 
+- wersja na smartphone:
+https://www.pocketgrimoire.co.uk/pl_PL/sheet?name=Nadchodz%C4%85ce+K%C5%82opoty&characters=washerwoman%2Clibrarian%2Cinvestigator%2Cchef%2Cempath%2Cfortuneteller%2Cundertaker%2Cmonk%2Cravenkeeper%2Cvirgin%2Cslayer%2Csoldier%2Cmayor%2Cbutler%2Cdrunk%2Crecluse%2Csaint%2Cpoisoner%2Cspy%2Cscarletwoman%2Cbaron%2Cimp%2Cbureaucrat%2Cthief%2Cgunslinger%2Cscapegoat%2Cbeggar
+
+2. Zasady po polskiemu:
+https://github.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/blob/master/materia%C5%82y/r%C3%B3%C5%BCne/instrukta%C5%BC/edytowalne%20i%20drukowalne/zasady-po-polskiemu.pdf
+
+3. Faq, czyli "najczęściej zadawane pytania":
+https://github.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/blob/master/materia%C5%82y/r%C3%B3%C5%BCne/instrukta%C5%BC/edytowalne%20i%20drukowalne/faq-do-druku.pdf
