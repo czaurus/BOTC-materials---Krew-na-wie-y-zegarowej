@@ -1,1 +1,13 @@
-[{"id": "clockmaker"}, {"id": "investigator"}, {"id": "empath"}, {"id": "chambermaid"}, {"id": "artist"}, {"id": "sage"}, {"id": "drunk"}, {"id": "klutz"}, {"id": "scarletwoman"}, {"id": "baron"}, {"id": "imp"}]
+[
+    "clockmaker",
+    "investigator",
+    "empath",
+    "chambermaid",
+    "artist",
+    "sage",
+    "drunk",
+    "klutz",
+    "scarletwoman",
+    "baron",
+    "imp"
+]
