@@ -1,0 +1,235 @@
+[
+    {
+        "id": "_meta",
+        "name": "Nobody Fucking Move",
+        "author": "Brockwell"
+    },
+    {
+        "id": "pl_PL_snakecharmer",
+        "name": "Zaklinacz węży",
+        "team": "townsfolk",
+        "firstNight": 20.0,
+        "firstNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej roli i drużynie. Nowy Zaklinacz węży jest otruty.",
+        "otherNight": 11.0,
+        "otherNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej robi i drużynie. Nowy Zaklinacz węży jest otruty.",
+        "reminders": [
+            "otruty"
+        ],
+        "setup": false,
+        "ability": "Każdej nocy wybierz żywego gracza - jeśli wybrałeś demona, to zamieniacie się z nim postaciami i drużynami a i zostaje on otruty.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/snakecharmer.png"
+    },
+    {
+        "id": "alsaahir",
+        "name": "Alsaahir",
+        "team": "townsfolk",
+        "firstNight": null,
+        "firstNightReminder": "",
+        "otherNight": null,
+        "otherNightReminder": "",
+        "reminders": [
+            ""
+        ],
+        "setup": false,
+        "ability": "Once per day, if you publicly guess which players are Minion(s) and which are Demon(s), good wins.",
+        "image": "https://cdn.discordapp.com/attachments/708509594758152203/1256111147589963857/alsaahir.png?ex=66818e"
+    },
+    {
+        "id": "pl_PL_slayer",
+        "name": "Pogromca",
+        "team": "townsfolk",
+        "firstNight": 0.0,
+        "firstNightReminder": "",
+        "otherNight": 0.0,
+        "otherNightReminder": "",
+        "reminders": [
+            "No ability"
+        ],
+        "setup": false,
+        "ability": "Raz w trakcie gry, w ciagu dnia, publicznie wybierasz jednego gracza - jesli jest Demonem, ginie.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/slayer.png"
+    },
+    {
+        "id": "pl_PL_philosopher",
+        "name": "Filozof",
+        "team": "townsfolk",
+        "firstNight": 2.0,
+        "firstNightReminder": "Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
+        "otherNight": 2.0,
+        "otherNightReminder": "Jeśli Filozof nie wykorzystał jeszcze swojej zdolności - Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
+        "reminders": [
+            "jest filozofem",
+            "pijany"
+        ],
+        "setup": false,
+        "ability": "Raz w trakcie gry, nocą, wybierz dobrą postać - uzyskasz jej zdolność. Jeśli ta postać jest w grze, jest od teraz pijana.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/philosopher.png"
+    },
+    {
+        "id": "pl_PL_alchemist",
+        "name": "Alchemist",
+        "team": "townsfolk",
+        "firstNight": 3.0,
+        "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+        "otherNight": 0.0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "You have a not-in-play Minion ability.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/alchemist.png"
+    },
+    {
+        "id": "pl_PL_virgin",
+        "name": "Dziewica",
+        "team": "townsfolk",
+        "firstNight": 0.0,
+        "firstNightReminder": "",
+        "otherNight": 0.0,
+        "otherNightReminder": "",
+        "reminders": [
+            "No ability"
+        ],
+        "setup": false,
+        "ability": "Gdy zostaniesz nominowany po raz pierwszy w grze, a nominuje Cie mieszczanin, zostaje on natychmiast stracony.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/virgin.png"
+    },
+    {
+        "id": "pl_PL_heretic",
+        "name": "Heretic",
+        "team": "outsider",
+        "firstNight": 0.0,
+        "firstNightReminder": "",
+        "otherNight": 0.0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/heretic.png"
+    },
+    {
+        "id": "pl_PL_damsel",
+        "name": "Damsel",
+        "team": "outsider",
+        "firstNight": 31.0,
+        "firstNightReminder": "Wake all the Minions, show them the 'This character selected you' card and the Damsel token.",
+        "otherNight": 46.0,
+        "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
+        "reminders": [
+            "Guess used"
+        ],
+        "setup": false,
+        "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/damsel.png"
+    },
+    {
+        "id": "pl_PL_klutz",
+        "name": "Fajtłapa",
+        "team": "outsider",
+        "firstNight": 0.0,
+        "firstNightReminder": "",
+        "otherNight": 0.0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Kiedy dowiesz się, że nie żyjesz, publicznie wybierz jednego żywego gracza - jeśli jest zły, Twoja drużyna przegrywa.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/klutz.png"
+    },
+    {
+        "id": "pl_PL_psychopath",
+        "name": "Psychopath",
+        "team": "minion",
+        "firstNight": 0.0,
+        "firstNightReminder": "",
+        "otherNight": 0.0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/psychopath.png"
+    },
+    {
+        "id": "pl_PL_goblin",
+        "name": "Goblin",
+        "team": "minion",
+        "firstNight": 0.0,
+        "firstNightReminder": "",
+        "otherNight": 0.0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Claimed"
+        ],
+        "setup": false,
+        "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/goblin.png"
+    },
+    {
+        "id": "pl_PL_boomdandy",
+        "name": "Boomdandy",
+        "team": "minion",
+        "firstNight": 0.0,
+        "firstNightReminder": "",
+        "otherNight": 0.0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them dies.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/boomdandy.png"
+    },
+    {
+        "id": "pl_PL_pukka",
+        "name": "Pukka (PL)",
+        "team": "demon",
+        "firstNight": 28.0,
+        "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+        "otherNight": 26.0,
+        "otherNightReminder": "The Pukka points to a player. That player is poisoned. The poisoned player from last night dies.",
+        "reminders": [
+            "Dead",
+            "Poisoned"
+        ],
+        "setup": false,
+        "ability": "Kazdej nocy, wybierz gracza ktory zostanie otruty. Poprzedni otruty gracz umiera, po czym zdrowieje.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/pukka.png"
+    },
+    {
+        "id": "pl_PL_vortox",
+        "name": "Vortox",
+        "team": "demon",
+        "firstNight": 0.0,
+        "firstNightReminder": "",
+        "otherNight": 31.0,
+        "otherNightReminder": "Vortox wskazuje gracza. Gracz ten umiera.",
+        "reminders": [
+            "zgon"
+        ],
+        "setup": false,
+        "ability": "Każdej nocy* wybierz gracza, który umiera. Zdolności mieszczan zwracają fałszywe informacje. Każdego dnia, jeśli nikt nie został stracony, zło wygrywa.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/vortox.png"
+    },
+    {
+        "id": "pl_PL_sentinel",
+        "name": "Sentinel",
+        "team": "fabled",
+        "firstNight": null,
+        "firstNightReminder": null,
+        "otherNight": null,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/sentinel.png"
+    },
+    {
+        "id": "pl_PL_duchess",
+        "name": "Duchess",
+        "team": "fabled",
+        "firstNight": null,
+        "firstNightReminder": null,
+        "otherNight": 1.0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info.",
+        "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/duchess.png"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "_meta",
+        "name": "Visitors",
+        "author": "Zets",
+        "url-src": "https://botc-scripts.azurewebsites.net/api/scripts/2750/json/"
+    },
+    "librarian",
+    "investigator",
+    "chef",
+    "empath",
+    "fortuneteller",
+    "cultleader",
+    "monk",
+    "nightwatchman",
+    "ravenkeeper",
+    "slayer",
+    "magician",
+    "mayor",
+    "cannibal",
+    "drunk",
+    "recluse",
+    "snitch",
+    "saint",
+    "poisoner",
+    "spy",
+    "baron",
+    "scarletwoman",
+    "imp"
+]

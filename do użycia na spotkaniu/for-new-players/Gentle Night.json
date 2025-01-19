@@ -1,0 +1,31 @@
+[
+    {
+        "id": "_meta",
+        "name": "Gentle Night",
+        "author": "Angelus Morningstar",
+        "url-src": "https://botc-scripts.azurewebsites.net/api/scripts/4492/json/"
+    },
+    "chef",
+    "investigator",
+    "librarian",
+    "flowergirl",
+    "towncrier",
+    "oracle",
+    "monk",
+    "juggler",
+    "slayer",
+    "sage",
+    "virgin",
+    "minstrel",
+    "mayor",
+    "tinker",
+    "recluse",
+    "drunk",
+    "barber",
+    "spy",
+    "baron",
+    "goblin",
+    "scarletwoman",
+    "pukka",
+    "imp"
+]
